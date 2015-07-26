@@ -13,6 +13,7 @@ class AccessConfig{
         if (empty($this->configs[$key]))
         {
             $file_path = $this->path.'/'.$key.'.php';
+            // print_r($file_path);
             $config = require $file_path;
             $this->configs[$key] = $config;
         }

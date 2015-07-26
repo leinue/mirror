@@ -2,6 +2,8 @@
 
 namespace Common;
 
+require BASEDIR.'/Common/functions.php';
+
 class Loader{
 
 	static function autoload($class){
