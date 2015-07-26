@@ -10,8 +10,6 @@ $db=Common\Databases::getDatabases();
 
 $a=$db->query(' select * from `UserGroup` ');
 print_r($a);echo '<br><br>';
-$b=$db->query(' select * from `UserGroup` ');
-print_r($b);
 
 $db->update()->select()->select()->select()->select();
 // $db->select();

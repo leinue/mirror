@@ -53,6 +53,7 @@ class Databases{
 	function update($sql=null,$arr=null){
 		echo 'update';
 		echo '<br><br>';
+		// $this->execute();
 		return self::$instance;
 	}
 
